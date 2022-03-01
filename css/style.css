@@ -15,7 +15,7 @@ h4 {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 36px;
 	margin-bottom: 40px;
 }
 
@@ -31,7 +31,15 @@ h2 {
 }
 
 h3 {
-	font-size: 18px;
+	color: #666;  
+  font-size:14px;
+font-weight:400px;
+  margin-bottom: 0;
+  font-size-adjust: 0.63;
+  letter-spacing:0.6px;  
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 	margin-bottom: 30px;
 }
 
@@ -40,9 +48,15 @@ h4 {
 }
 
 p {
-	font-size: 16px;
-	color: #666;
-	line-height: 2;
+	color: #666;  
+  font-size:14px;
+font-weight:400px;
+  margin-bottom: 0;
+  font-size-adjust: 0.63;
+  letter-spacing:0.6px;  
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 }
 
 img {
@@ -67,12 +81,24 @@ ol {
 	padding: 0;
 	margin: 0;
 }
+ul,li{
+	color: #666;  
+  font-size:14px;
+font-weight:400px;
+  margin-bottom: 0;
+  font-size-adjust: 0.63;
+  letter-spacing:0.6px;  
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+padding:10px 0 0 0;
+}
 
 /*------------------------
   Helper css
 --------------------------*/
 .sp-title {
-	font-size: 60px;
+	font-size: 48px;
 	margin-bottom: 40px;
 }
 
@@ -113,7 +139,7 @@ ol {
 	background: #f4592b;
 	padding: 0 20px;
 	margin-bottom: 0;
-	font-size: 60px;
+	font-size: 40px;
 	color:#fff;
 }
 .project-title h4,
@@ -126,7 +152,7 @@ ol {
 	color:#fff;
 }
 .project-title {
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 
 .set-bg {
@@ -640,7 +666,7 @@ ol {
 /*  Intro Section CSS
 /*----------------------------------------*/
 .intro-text p {
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
 
 
@@ -648,7 +674,15 @@ ol {
 .intro-text ul li{	
 	color: #666;
 	padding: 5px 5px;
-	text-align:justify;
+	text-align:justify;	
+	font-size:14px;
+font-weight:400px;
+  margin-bottom: 0;
+  font-size-adjust: 0.63;
+  letter-spacing:0.6px;  
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 	/*list-style-image:url(../img/icon/dark/circle.png);*/
 	
 }
@@ -661,6 +695,7 @@ ol {
 .promoter{
 	color:#666;
 	padding:5px 0 0 0;
+	
 }
 
 /*----------------------------------------*/
@@ -967,14 +1002,8 @@ ol {
 
 .projects-slider .single-project {
 	height: 550px;
-	width: 100%;
-	background: #333;
-	-o-transition: .8s;
-	transition: .8s;
-	-webkit-transition: .8s;
-	-ms-transform: translateX(0);
-	    transform: translateX(0);
-	-webkit-transform: translateX(0);
+	width: 100%;	
+	
 	opacity: 1;
 }
 
@@ -985,7 +1014,7 @@ ol {
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
-	opacity: 0;
+	opacity: 1;
 }
 
 .projects-slider .single-project .project-content h2 {
@@ -1116,6 +1145,8 @@ ol {
 	padding-bottom: 110px;
 	border-top: 1px solid #c8c8c8;
 	position: relative;
+	background-color:#d1d1d1;
+	
 }
 
 .footer-section .copyright {
@@ -1124,6 +1155,7 @@ ol {
 	margin-top: -12px;
 	left: 60px;
 	color: #737373;
+	background:#9F0;
 }
 
 .footer-section .footer-social {
@@ -1134,6 +1166,15 @@ ol {
 	top: -55px;
 	padding-top: 20px;
 	background: #222;
+}
+.footer-item{
+	padding:25px;
+}
+.footer-item h2{
+	font-size:24px;
+	padding-bottom:25px;
+	color:#333;
+	
 }
 
 .footer-item ul {
@@ -1146,11 +1187,16 @@ ol {
 }
 
 .footer-item ul li a {
-	display: inline-block;
-	font-size: 15px;
-	font-weight: 500;
-	color: #222222;
-	padding: 0 5px;
+	color: #333;  
+  font-size:14px;
+font-weight:400px;
+  margin-bottom: 0;
+  font-size-adjust: 0.63;
+  letter-spacing:0.6px;  
+  
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+	margin-bottom: 30px;
 }
 
 .footer-item ul li a:hover {
@@ -1311,13 +1357,29 @@ ol {
 /*----------------------------------------*/
 /*  Service page CSS
 /*----------------------------------------*/
+.service-section{
+	position:relative;
+	
+}
+.service-slider-section{
+	position:absolute;
+	
+	
+}
+.service-section .content{
+	display:block;
+	float:left;
+}
 .service-slider {
 	position: relative;
+	margin-top:0;
+	width:100%;
+	height:3auto;
+
 }
 
 .service-slider .owl-controls {
-	position: absolute;
-	height: 100%;
+	position: absolute;	
 	width: 14px;
 	left: 0;
 	top: 0;
@@ -1973,14 +2035,12 @@ ol {
 	}
 	.footer-section .copyright {
 		position: relative;
-		width: 100%;
-		max-width: 720px;
-		margin: 40px auto 0;
-		left: 0;
-		top: 0;
-		margin-bottom: -50px;
-		padding-left: 15px;
+		width: 100%;		
+		padding:100px;
+		background-color:#222;
+		color:white;
 	}
+	
 }
 
 /* Large Mobile :480px. */
@@ -2122,6 +2182,8 @@ ol {
 		margin-bottom: -50px;
 		padding-left: 15px;
 		text-align: center;
+		background-color:#222;
+		color:white;
 	}
 	.footer-item {
 		margin-bottom: 40px;
