@@ -32,7 +32,7 @@ h2 {
 
 h3 {
 	color: #666;  
-  font-size:14px;
+  font-size:16px;
 font-weight:400px;
   margin-bottom: 0;
   font-size-adjust: 0.63;
@@ -48,8 +48,8 @@ h4 {
 }
 
 p {
-	color: #666;  
-  font-size:14px;
+	color: #333;  
+  font-size:16px;
 font-weight:400px;
   margin-bottom: 0;
   font-size-adjust: 0.63;
@@ -82,8 +82,8 @@ ol {
 	margin: 0;
 }
 ul,li{
-	color: #666;  
-  font-size:14px;
+	color: #333;  
+  font-size:16px;
 font-weight:400px;
   margin-bottom: 0;
   font-size-adjust: 0.63;
@@ -672,10 +672,10 @@ padding:10px 0 0 0;
 
 
 .intro-text ul li{	
-	color: #666;
+	color: #333;
 	padding: 5px 5px;
 	text-align:justify;	
-	font-size:14px;
+	font-size:16px;
 font-weight:400px;
   margin-bottom: 0;
   font-size-adjust: 0.63;
