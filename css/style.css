@@ -434,7 +434,7 @@ padding:10px 0 0 0;
 .logo-area {
 	float: left;
 	display: inline-block;
-	background: #121212;
+	background: #ddd;
 	padding: 20px 60px 30px;
 }
 
@@ -1145,7 +1145,7 @@ text-rendering: optimizeLegibility !important;
 	padding-bottom: 110px;
 	border-top: 1px solid #c8c8c8;
 	position: relative;
-	background-color:#d1d1d1;
+	background-color:#ddd;
 	
 }
 
