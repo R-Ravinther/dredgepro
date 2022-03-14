@@ -158,6 +158,9 @@ padding:10px 0 0 0;
 .set-bg {
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-color:#777;
+	z-index:-1;
+	
 }
 
 /*------------------------
@@ -434,8 +437,9 @@ padding:10px 0 0 0;
 .logo-area {
 	float: left;
 	display: inline-block;
-	background: #ddd;
-	padding: 20px 60px 30px;
+	/*background: #ddd;*/
+	padding: 20px 120px 60px;
+	
 }
 
 .phone-number {
