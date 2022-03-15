@@ -55,6 +55,8 @@ $(window).on('load', function() {
         nav: true,
         items: 1,
         dots: false,
+		autoplay:true,
+    autoplayTimeout:5000,    
         animateOut: 'fadeOutRight',
     	animateIn: 'fadeInLeft',
         navText: ['<i class="fa fa-long-arrow-left"></i> PREV', 'NEXT<i class="fa fa-long-arrow-right"></i>'],
