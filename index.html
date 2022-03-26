@@ -50,7 +50,10 @@
 <li><a href="#">Group <i class="fa fa-caret-down" aria-hidden="true"></i></a>
 <ul>
 			   <li><a href="http://dredgepro.net/"> Dredgepro Solutions</a></li>
-			  <li><a href="#"> DS Hytech  </a></li>	
+			<!--<li><a href="#" data-toggle="modal" data-target="#myModal"> DS Hytech  </a></li>
+             <li><a href="pdf/DSH Profile.pdf" target="_blank"> DS Hytech  </a></li>-->
+             <li><a href="#" onClick="MyWindow=window.open('pdf/DSH Profile.pdf','MyWindow','width=768,height=768'); return false;">DS Hytech </a></li>
+             
 		    </ul>
 
 </li> 
@@ -66,17 +69,7 @@
 
 <section class="hero-section">
 
-<div class="left-bar">
-<div class="left-bar-content">
-<div class="social-links">
-<a href="#"><i class="fa fa-pinterest"></i></a>
-<a href="#"><i class="fa fa-linkedin"></i></a>
-<a href="#"><i class="fa fa-instagram"></i></a>
-<a href="#"><i class="fa fa-facebook"></i></a>
-<a href="#"><i class="fa fa-twitter"></i></a>
-</div>
-</div>
-</div>
+
 
 <div class="hero-slider">
 <div class="hero-slide-item set-bg" data-setbg="img/bg-1.jpg">
@@ -263,7 +256,7 @@
 </div>
 </section>
 
-
+<!--
 <section class="milestones-section spad">
 <div class="container">
 <div class="row">
@@ -294,6 +287,7 @@
 </div>
 </div>
 </section>
+-->
 
 
 <div class="projects-section pb50">
@@ -311,8 +305,8 @@
 <div class="single-project">
 <div class="project-content">
 <a href="projects.html">
-<h2>Offshore Trenching Works</h2>
-<img src="img/project/ongc.png">
+<h2>Offshore Trenching</h2>
+<img src="img/project/yojaka.png">
 </a>
 <a href="projects.html" class="seemore">See Project </a>
 </div>
@@ -321,7 +315,7 @@
 <div class="single-project">
 <div class="project-content">
 <a href="projects.html">
-<h2>Technical advisory services </h2>
+<h2>Technical advisory </h2>
 <img src="img/project/ultratech.png">
 </a>
 <a href="projects.html" class="seemore">See Project </a>
@@ -331,8 +325,8 @@
 <div class="single-project">
 <div class="project-content">
 <a href="projects.html">
-<h2>Offshore Trenching Works </h2>
-<img src="img/project/mrpl.png">
+<h2>Deepening & Widening </h2>
+<img src="img/project/jnpt.png">
 </a>
 <a href="projects.html" class="seemore">See Project </a>
 </div>
@@ -341,7 +335,7 @@
 <div class="single-project">
 <div class="project-content">
 <a href="projects.html">
-<h2>Maintenance Dredging</h2>
+<h2>Capital Dredging</h2>
 <img src="img/project/jsw.png">
 </a>
 <a href="projects.html" class="seemore">See Project </a>
@@ -458,6 +452,7 @@
 <img src="img/clients/19.png" alt="">
 </a>
 </div>
+
 <div class="single-brand">
 <a href="#">
 <img src="img/clients/20.png" alt="">
@@ -483,7 +478,7 @@
 
 
 <footer class="footer-section">
-<div class="footer-social">
+<!--<div class="footer-social">
 <div class="social-links">
 <a href="#"><i class="fa fa-pinterest"></i></a>
 <a href="#"><i class="fa fa-linkedin"></i></a>
@@ -492,6 +487,7 @@
 <a href="#"><i class="fa fa-twitter"></i></a>
 </div>
 </div>
+-->
 <div class="container">
 
 <div class="row">
@@ -541,6 +537,29 @@
 <div class="copyright" style="text-align:center;padding:25px; background:#222; color:#c1c1c1;">Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved. Dredging Solutions</div>
 
 
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+      <div class="fixframe">
+       <iframe src="pdf/DSH Profile.pdf" scrolling="yes"></iframe>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
@@ -549,6 +568,8 @@
 <script src="js/magnific-popup.min.js"></script>
 
 <script src="js/main.js"></script>
+
+
 
 
 

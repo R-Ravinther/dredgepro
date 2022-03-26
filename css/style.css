@@ -130,7 +130,8 @@ padding:10px 0 0 0;
 }
 
 .section-title {
-	margin-bottom: 75px;
+	margin-bottom: 50px;
+	margin-top:50px;
 }
 
 .section-title h1,
@@ -150,6 +151,7 @@ padding:10px 0 0 0;
 	margin-bottom: 0;
 	font-size: 36px;
 	color:#fff;
+	margin-top:50px;
 }
 .project-title {
 	margin-bottom: 25px;
@@ -532,7 +534,7 @@ padding:10px 0 0 0;
 /*  Hero Section CSS
 /*----------------------------------------*/
 .hero-section {
-	height: 960px;
+	height: 700px;
 	background: #ededed;
 	position: relative;
 }
@@ -580,12 +582,12 @@ padding:10px 0 0 0;
 	z-index: 30;
 	color: #fff;
 	text-transform: uppercase;
-	letter-spacing: 20px;
+	letter-spacing: 14px;
 }
 
 .hero-slider .hero-slide-item {
 	width: 100%;
-	height: 960px;
+	height: 700px;
 	display: table;
 }
 
@@ -1025,19 +1027,21 @@ text-rendering: optimizeLegibility !important;
 }
 
 .projects-slider {
-	padding: 0 40px;
+	padding: 0 250px;
 	margin-top: 60px;
 }
 
 .projects-slider .single-project {
-	height: 550px;
-	width: 100%;	
-	
-	opacity: 1;
+	height: 250px;
+	width: 70%;	
+	position:relative;
+	margin-left:0;
+	margin-right:0;	
+	opacity: 1;	
 }
 
 .projects-slider .single-project .project-content {
-	padding: 50px;
+	padding: 10px 50px;
 	height: 100%;
 	background: rgba(13, 13, 13, 0.5);
 	-webkit-transition: all 0.4s ease 0s;
@@ -1050,32 +1054,33 @@ text-rendering: optimizeLegibility !important;
 	color: #fff;
 	font-weight: 500;
 	position: relative;
-	top: 20px;
+	top: 10px;
+	font-size:18px;
 	-webkit-transition: all 0.6s ease 0s;
 	-o-transition: all 0.6s ease 0s;
 	transition: all 0.6s ease 0s;
+	text-align:center;
 }
 
 .projects-slider .single-project .project-content p {
 	color: #f4592b;
 	font-weight: 500;
 	position: relative;
-	top: 40px;
+	top: 10px;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
 }
 
 .projects-slider .single-project .seemore {
-	position: absolute;
-	right: 50px;
+	position: absolute;	
 	bottom: 30px;
 	background: #f4592b;
 	font-size: 14px;
 	font-weight: 700;
 	color: #222;
 	display: inline-block;
-	padding: 2px 8px;
+	padding: 2px 2px;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
@@ -1827,6 +1832,11 @@ text-rendering: optimizeLegibility !important;
 	font-style: italic;
 }
 
+.contact-form .btn{
+	color:#eb6923;
+	font-weight:500;
+	font-size:16px;
+}
 .map-area {
 	height: 685px;
 	width: 100%;
@@ -2458,6 +2468,42 @@ text-rendering: optimizeLegibility !important;
   }
 }
 
+/*modal */
+.modal{
+    margin-top:0;
+	width:100%;
+	height:100%;
+}
+
+/* Important part */
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 90vh;
+    overflow-y: auto;
+	margin-top:100px;
+}
+
+.fixframe {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px; 
+	overflow: auto !important; -webkit-overflow-scrolling: touch !important;
+}   
+
+.fixframe iframe {
+   height: 500px;
+   width: 100%;
+   margin-top:300px;
+   
+} 
+
+
+
+
 /* Tabs content */
 .site-tabs-content {
   margin: 0;
@@ -2502,29 +2548,30 @@ text-rendering: optimizeLegibility !important;
 
 .site-tabs-content button h4{
 	color:#384145;
-	font-size:18px;
+	font-size:12px;
+	
 }
 
 .site-tabs-content p {
   color: #828282;
 
   line-height: 1.7;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  margin-top:10px;
 }
 
 .site-tabs-content h3 {
-  color: #384245;
- 
-  line-height:2.5;
-  margin-bottom: 30px;
-  padding:0;
-  margin:0;
+  color: #384245; 
+  line-height:1.5;
+  margin-bottom: 10px;
+ margin-top:10px;
+  
   text-transform:uppercase;
 }
 
 .site-tabs-content h4 {
   color: #009688;
-  
+   margin-top:20px;
   line-height:1.5;
   padding:10px;
    text-transform:uppercase;

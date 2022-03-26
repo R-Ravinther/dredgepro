@@ -89,7 +89,7 @@ $(window).on('load', function() {
 	var project = $('#projects-carousel').owlCarousel({
 		nav: true,
 		loop: true,
-		margin:20,
+		margin:0,
 		navText: ['<i class="fa fa-long-arrow-left"></i> PREV', 'NEXT<i class="fa fa-long-arrow-right"></i>'],
 		responsive:{
 			0:{
@@ -107,6 +107,9 @@ $(window).on('load', function() {
 			},
 			1200:{
 				items:4
+			},
+			1400:{
+				items:5
 			},
 		}
 	});
@@ -324,3 +327,4 @@ function portfolio_item_size(){
 		}
 	});
 }
+
