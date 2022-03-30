@@ -2543,8 +2543,9 @@ text-rendering: optimizeLegibility !important;
 
 .site-tabs-content button:hover{
 	width:100%;
-	background-color:#f4592b;
+	
 	color:#384145;
+	box-shadow: 0 4px 8px 0 lightgray;
 }
 .site-tabs-content button:enter{
 	width:100%;
